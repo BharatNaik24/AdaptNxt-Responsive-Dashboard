@@ -58,7 +58,7 @@
 
 @media screen and (max-width: 767px) {
     .socialPage {
-        flex-direction: column;
+        flex-direction: row;
         padding: 10px;
         gap: 5px;
     }

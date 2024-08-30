@@ -1,0 +1,16 @@
+.no-orders {
+  background-color: #f8f9fa;
+  width: 100%;
+  padding: 10px;
+  height: 100vh;
+  text-align: center;
+  font-family: 'Times New Roman', Times, serif !important;
+}
+
+
+.noOrders {
+  width: 100%;
+  max-height: 700px;
+  min-height: auto;
+}
+

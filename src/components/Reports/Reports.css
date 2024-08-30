@@ -1,0 +1,15 @@
+.reportsClass {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Times New Roman', Times, serif !important;
+    min-height: 100vh !important;
+}
+.reports-container {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}

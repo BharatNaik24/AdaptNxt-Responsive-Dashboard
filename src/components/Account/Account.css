@@ -1,0 +1,30 @@
+.dashboard-container {
+  padding: 20px;
+  min-height:100vh ;
+  width: 100%;
+}
+
+.dashboard-heading {
+  font-size: 2em;
+  margin-bottom: 20px;
+}
+
+.user-detail-card {
+  border: 1px solid #ddd;
+  padding: 20px;
+  border-radius: 5px;
+  background-color: #f9f9f9;
+  max-width: 400px;
+  margin: 0 auto;
+}
+
+.user-detail-card h2 {
+  margin: 0 0 15px 0;
+}
+
+.user-detail-card p {
+  margin: 5px 0;
+}
+.webLogoo {
+  height: 100px;
+}

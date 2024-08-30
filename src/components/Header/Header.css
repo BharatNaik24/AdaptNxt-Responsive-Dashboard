@@ -1,0 +1,17 @@
+.headerComp {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 10px;
+}
+.linkClass {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.webLogo {
+    width: 100px;
+}

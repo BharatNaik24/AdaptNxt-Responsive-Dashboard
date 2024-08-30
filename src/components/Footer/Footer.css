@@ -1,0 +1,84 @@
+/* Social Icons container styling */
+.socialIcons {
+    background-color: #ffffff;
+    padding: 10px;
+    border-radius: 50%;
+    margin: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Social Page container styling */
+.socialPage {
+    background-color: #111111;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    padding: 20px;
+    flex-wrap: wrap; /* Ensure items wrap on smaller screens */
+}
+
+/* Social Link styling */
+.socialLink {
+    color: #fff;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.socialLink:hover {
+    color: #007bff;
+}
+
+/* Responsive styles */
+@media screen and (max-width: 1200px) {
+    .socialPage {
+        padding: 15px;
+        gap: 10px;
+    }
+
+    .socialIcons {
+        padding: 8px;
+        margin: 15px;
+    }
+}
+
+@media screen and (max-width: 992px) {
+    .socialPage {
+        padding: 10px;
+        gap: 8px;
+    }
+
+    .socialIcons {
+        padding: 6px;
+        margin: 10px;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .socialPage {
+        flex-direction: column;
+        padding: 10px;
+        gap: 5px;
+    }
+
+    .socialIcons {
+        padding: 5px;
+        margin: 10px 0;
+    }
+
+    .socialLink {
+        font-size: 14px;
+    }
+}
+
+
+.copyRight {
+    background-color: #000000;
+    color: #ffffff;
+    align-items: center;
+    padding: 10px;
+   text-align: center;
+   font-size: large;
+}
